@@ -1,8 +1,14 @@
 body {
   background-color: var(--primary);
+  font-family: Inter, sans-serif;
 }
 
-.contents {
-  margin: auto;
+.content-section {
   width: clamp(100px, 100%, 300px);
+  margin: auto;
+}
+
+.content-section_theme_dark {
+  color: var(--txtColor);
+  background-color: var(--secondary)
 }
