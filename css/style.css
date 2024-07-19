@@ -12,3 +12,33 @@ body {
   color: var(--txtColor);
   background-color: var(--secondary)
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 20px;
+}
+
+.header__logo {
+  display: block;
+  width: 80px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.header__menu-link {
+  color: var(--txtColor);
+}
+
+.header__menu-item_active .header__menu-item  {
+  text-decoration: none;
+}
