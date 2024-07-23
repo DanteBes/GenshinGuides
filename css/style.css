@@ -42,3 +42,16 @@ body {
 .header__menu-item_active .header__menu-item  {
   text-decoration: none;
 }
+
+.header__under_menu-item {
+  align-self: center;
+  position: relative;
+}
+
+.header__menu-item_box-nav {
+  position: absolute;
+  right: 80px;
+  top: 10px;
+  background-color: var(--secondary);
+  
+}
