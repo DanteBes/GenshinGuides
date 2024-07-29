@@ -28,6 +28,7 @@ body {
   width: 100%;
 }
 
+
 .header__menu-list, .header__menu-item_box-nav{
   display: flex;
   flex-direction: column;
@@ -52,7 +53,7 @@ body {
   position: absolute;
   right: 85px;
   top: 20px;
-  width: 140px;
+  width: 145px;
   padding: 0.8em;
   white-space: nowrap;
   border-radius: 0.8rem;
@@ -63,4 +64,13 @@ body {
 
 .hidden {
   display: none
+}
+
+.cover {
+  width: 250px;
+  padding: 7px 24px 32px 20px;
+  background-image: url(../src/img/svg/);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 95% auto
 }
