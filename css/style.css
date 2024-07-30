@@ -37,7 +37,7 @@ body {
 }
 
 .header__menu-link {
-  color: var(--txtColor);
+  color: var(--primary);
   text-decoration: none;
 }
 
@@ -67,10 +67,21 @@ body {
 }
 
 .cover {
-  width: 250px;
+  width: 300px;
+  height: 200px;
   padding: 7px 24px 32px 20px;
-  background-image: url(../src/img/svg/);
+  background-image: url(../src/img/svg/preview.svg);
+  background-color: var(--secondary);;
   background-repeat: no-repeat;
   background-position: right center;
-  background-size: 95% auto
+  background-size: 99% auto
+}
+
+.cover__title {
+  width: 100%;
+  color: var(--primary);
+  font-family: "Genshin Impact", serif;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 1.2 ;
 }
