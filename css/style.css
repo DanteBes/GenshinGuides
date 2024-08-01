@@ -61,7 +61,7 @@ body {
   position: absolute;
   right: 85px;
   top: 20px;
-  width: 145px;
+  min-width: 145px;
   padding: 0.8em;
   white-space: nowrap;
   border-radius: 0.8rem;
