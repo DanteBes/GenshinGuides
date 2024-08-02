@@ -6,6 +6,7 @@ body {
 .content-section {
   width: clamp(100px, 100%, 300px);
   margin: auto;
+  border-inline: 4px solid var(--additional);
 }
 
 .content-section_theme_dark {
@@ -107,4 +108,33 @@ body {
 
 .text-right {
   text-align: end
+}
+
+.intro_heding {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: var(--primary);
+  font-size: 16px;
+}
+
+.intro_title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.intro_data {
+  font-size: 16px;
+  line-height: 1.2;
+  white-space: nowrap
+}
+
+.intro_main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 20px 0px 0px 0px;
+  font-size: 16px;
+  color: var(--primary);
 }
