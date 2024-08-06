@@ -1,4 +1,29 @@
 @font-face {
+  font-family: 'Lora';
+  src: url('Lora-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-weight: bold;
+  src: url('Lora-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  src: url('Lora-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-weight: bold;
+  font-style: italic;
+  src: url('Lora-BoldItalic.ttf') format('truetype');
+}
+
+
+@font-face {
   font-family: 'Genshin Impact';
   src: url('Genshin_Impact.ttf') format('truetype');
 }
