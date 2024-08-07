@@ -154,9 +154,15 @@ body {
 
 .content-section__title {
   margin-bottom: 20px;
-  font-family: "Genshin impact", Arial, sans-serif;
+  font-family: "Lora", Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 800;
   line-height: 1.2
+}
+
+.content-section__introduction {
+  margin: 0 0 32px;
+  font-size: 20px;
+  line-height: 1.35
 }
