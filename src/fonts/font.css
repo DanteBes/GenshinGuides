@@ -24,11 +24,6 @@
 
 
 @font-face {
-  font-family: 'Genshin Impact';
-  src: url('Genshin_Impact.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'Roboto';
   font-weight: 900;
   src: url('Roboto-Black.ttf') format('truetype');

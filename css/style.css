@@ -97,9 +97,9 @@ body {
   flex-direction: column;
   gap: 16px;
   color: var(--primary);
-  font-family: "Genshin Impact", serif;
+  font-family: "Lora", Arial, sans-serif;
   font-size: 42px;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.2 ;
 }
 
@@ -149,7 +149,7 @@ body {
 }
 
 .reasons {
-  padding: 40px 20px;
+  padding: 20px 20px;
 }
 
 .content-section__title {
