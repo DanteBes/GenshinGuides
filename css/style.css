@@ -166,3 +166,11 @@ body {
   font-size: 20px;
   line-height: 1.35
 }
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 0 16px;
+  line-height: 1.2;
+}
