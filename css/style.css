@@ -174,3 +174,28 @@ body {
   padding: 0 0 0 16px;
   line-height: 1.2;
 }
+
+.content-section__list-accent {
+  font-weight: 800;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 30px;
+} 
+
+.cards-list {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+  list-style: none;
+}
+
+.card__title {
+  font-family: "Lora", Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin-top: 12px;
+}
