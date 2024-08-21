@@ -179,6 +179,10 @@ body {
   font-weight: 800;
 }
 
+.how-to {
+  padding:20px;
+}
+
 .card {
   padding: 30px;
   border-radius: 30px;
@@ -230,6 +234,7 @@ body {
   width: 60px;
   border-radius: 16px;
   margin-bottom: 12px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5)
 }
 
 .card__artifact-name {
