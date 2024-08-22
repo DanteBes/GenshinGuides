@@ -27,7 +27,7 @@ body {
 
 .header__logo {
   display: block;
-  width: 80px;
+  width: 100px;
 }
 
 .header__logo-image {
@@ -242,4 +242,28 @@ body {
   font-weight: 700;
   line-height: 115%;
   margin-bottom: 12px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--additional);
+  padding: 15px;
+}
+
+.footer__copy {
+  color: var(--primary);
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+}
+
+.footer__list a {
+  color: var(--primary);
+  text-decoration: none;
 }
