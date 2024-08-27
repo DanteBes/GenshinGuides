@@ -51,10 +51,32 @@ body {
   transition: 0.8s;
 }
 
-.header__under_menu-item {
-  align-self: center;
+.header__menu-details {
+  color: var(--primary);
   position: relative;
 }
+
+.header__menu-details-summary {
+  list-style: none;
+  color: var(--primary);
+  fill: var(--primary);
+  background: url('../src/img/svg/list.svg') no-repeat;
+  background-position: 0 50%;
+  background-size: 16px;
+  padding: 0 0 0 20px;
+  translate: -20px;
+  transform: 0.5s color;
+  cursor: pointer;
+}
+
+.header__menu-details[open]
+> .header__menu-details-summary {
+  color: var(--additional)
+}
+
+.header__menu-details-summary::-webkit-details-marker {
+  display: none;
+} 
 
 .header__menu-link:hover {
   color: var(--additional);
