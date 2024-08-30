@@ -1,6 +1,6 @@
 body {
   background-color: var(--primary);
-  font-family: Inter, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
 }
 
 .content-section {
@@ -81,13 +81,12 @@ body {
 
 .header__menu-details-links {
   position: absolute;
-  top: 30px;
-  right: 50px;
+  top: 20px;
+  right: 90px;
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  position: absolute;
   min-width: 145px;
   padding: 16px;
   white-space: nowrap;
@@ -162,6 +161,8 @@ body {
 
 .intro_data {
   font-size: 16px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 600;
   line-height: 1.2;
   white-space: nowrap
 }
@@ -172,6 +173,9 @@ body {
   gap: 30px;
   margin: 20px 0px 0px 0px;
   font-size: 16px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
   color: var(--primary);
 }
 
@@ -195,6 +199,8 @@ body {
 .content-section__introduction {
   margin: 0 0 32px;
   font-size: 20px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 600;
   line-height: 1.35
 }
 
@@ -208,6 +214,7 @@ body {
 
 .content-section__list-accent {
   font-weight: 800;
+  font-family: "Lora", Arial, sans-serif;
 }
 
 .how-to {
