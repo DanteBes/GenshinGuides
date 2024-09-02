@@ -110,6 +110,11 @@ body {
   color: var(--additional);
 }
 
+.accent-db {
+  color: var(--additional);
+  font-weight: 800 ;
+}
+
 .cover {
   width: 300px;
   height: 200px;
