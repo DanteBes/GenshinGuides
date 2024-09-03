@@ -112,7 +112,12 @@ body {
 
 .accent-db {
   color: var(--additional);
-  font-weight: 800 ;
+  font-weight: 800;
+  transition: 0.3s;
+}
+
+.accent-db:hover {
+  text-decoration: underline;
 }
 
 .cover {
