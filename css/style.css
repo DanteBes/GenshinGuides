@@ -222,6 +222,12 @@ body {
   line-height: 1.2;
 }
 
+.content-section__list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .content-section__list-accent {
   font-weight: 800;
   font-family: "Lora", Arial, sans-serif;
