@@ -210,7 +210,7 @@ body {
   margin: 0 0 32px;
   font-size: 20px;
   font-family: "Roboto", Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 00;
   line-height: 1.35
 }
 
@@ -226,6 +226,17 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  list-style: none;
+  position: relative;
+}
+
+.content-section__list-item:before {
+  content: '•'; 
+  font-size: 30px;
+  position: absolute;
+  left: -15px;
+  top: -5px;
+  color: var(--secondary);
 }
 
 .content-section__list-accent {
