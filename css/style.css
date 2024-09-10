@@ -299,43 +299,40 @@ body {
 
 @keyframes easter-egg {
   from {
-    
+    transition: translate(0.3rem 0.3rem) rotate(0deg);
   }
   25% {
-    
+    transition: translate(-1.3rem -1.8rem) rotate(-5deg);
   }
   28% {
-    
+    transition: translate(-1.3rem -1.3rem) rotate(-15deg);
   }
   32%{
-    
+    transition: translate(-1.3rem -1.8rem) rotate(5deg);
   }
   36% {
-    
+    transition: translate(-1.3rem -1.3rem) rotate(-15deg);
   }
   40% {
-    
+    transition: translate(-1.3rem -1.8rem) rotate(5deg);
   }
   44% {
-    
+    transition: translate(-1.3rem -1.3rem) rotate(-15deg);
   }
   48% {
-    
+    transition: translate(-1.3rem -1.3rem) rotate(5deg);
   }
   52% {
-    
-  }
-  56% {
-    
+    transition: translate(-1.3rem -1.3rem) rotate(-5deg);
   }
   66% {
-    
+    transition: translate(-1.3rem -1.3rem) rotate(-5deg);
   }
   70% {
-    
+    transition: translate(-1.3rem -1.3rem) rotate(-5deg);
   }
   to {
-    
+    transition: translate(0.3rem 0.3rem) rotate(0deg);
   }
 }
 
