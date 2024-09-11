@@ -294,45 +294,45 @@ body {
   animation-timing-function: cubic-bezier(0.19, 1  0.22, 1);
   animation-duration: 0.8s;
   animation-iteration-count: infinite;
-  transition: translate(0.3rem 0.3rem) rotate(0deg);
+  transform: translate(0.3rem 0.3rem) rotate(0deg);
 }
 
 @keyframes easter-egg {
   from {
-    transition: translate(0.3rem 0.3rem) rotate(0deg);
+    transform: translate(0.3rem 0.3rem) rotate(0deg);
   }
   25% {
-    transition: translate(-1.3rem -1.8rem) rotate(-5deg);
+    transform: translate(-1.3rem -1.8rem) rotate(-5deg);
   }
   28% {
-    transition: translate(-1.3rem -1.3rem) rotate(-15deg);
+    transform: translate(-1.3rem -1.3rem) rotate(-15deg);
   }
   32%{
-    transition: translate(-1.3rem -1.8rem) rotate(5deg);
+    transform: translate(-1.3rem -1.8rem) rotate(5deg);
   }
   36% {
-    transition: translate(-1.3rem -1.3rem) rotate(-15deg);
+    transform: translate(-1.3rem -1.3rem) rotate(-15deg);
   }
   40% {
-    transition: translate(-1.3rem -1.8rem) rotate(5deg);
+    transform: translate(-1.3rem -1.8rem) rotate(5deg);
   }
   44% {
-    transition: translate(-1.3rem -1.3rem) rotate(-15deg);
+    transform: translate(-1.3rem -1.3rem) rotate(-15deg);
   }
   48% {
-    transition: translate(-1.3rem -1.3rem) rotate(5deg);
+    transform: translate(-1.3rem -1.3rem) rotate(5deg);
   }
   52% {
-    transition: translate(-1.3rem -1.3rem) rotate(-5deg);
+    transform: translate(-1.3rem -1.3rem) rotate(-5deg);
   }
   66% {
-    transition: translate(-1.3rem -1.3rem) rotate(-5deg);
+    transform: translate(-1.3rem -1.3rem) rotate(-5deg);
   }
   70% {
-    transition: translate(-1.3rem -1.3rem) rotate(-5deg);
+    transform: translate(-1.3rem -1.3rem) rotate(-5deg);
   }
   to {
-    transition: translate(0.3rem 0.3rem) rotate(0deg);
+    transform: translate(0.3rem 0.3rem) rotate(0deg);
   }
 }
 
@@ -346,12 +346,12 @@ body {
   background-color: var(--additional)
 }
 
-/*
-.card_theme_brigh {
+
+.card_theme_red {
   color: var(--additional);
-  background-color: var(--secondary)
+  background-color: var(--additionalTwo)
 }
-*/
+
 
 .content-section__subtitle {
   font-family: "Lora", Arial, sans-serif;
