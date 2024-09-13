@@ -291,8 +291,8 @@ body {
 
 .easter-egg__animated {
   animation-name: easter-egg;
-  animation-timing-function: cubic-bezier(0.19, 1  0.22, 1);
-  animation-duration: 0.8s;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   transform: translate(0.3rem 0.3rem) rotate(0deg);
 }
@@ -302,34 +302,34 @@ body {
     transform: translate(0.3rem 0.3rem) rotate(0deg);
   }
   25% {
-    transform: translate(-1.3rem -1.8rem) rotate(-5deg);
+    transform: translate(-1.3rem -1.8em) rotate(-5deg);
   }
   28% {
-    transform: translate(-1.3rem -1.3rem) rotate(-15deg);
+    transform: translate(-1.3rem -1.8rem) rotate(-15deg);
   }
-  32%{
+  32% {
     transform: translate(-1.3rem -1.8rem) rotate(5deg);
   }
-  36% {
-    transform: translate(-1.3rem -1.3rem) rotate(-15deg);
+  35% {
+    transform: translate(-1.3rem -1.8rem) rotate(-15deg);
   }
   40% {
     transform: translate(-1.3rem -1.8rem) rotate(5deg);
   }
   44% {
-    transform: translate(-1.3rem -1.3rem) rotate(-15deg);
+    transform: translate(-1.3rem -1.8rem) rotate(-15deg);
   }
   48% {
-    transform: translate(-1.3rem -1.3rem) rotate(5deg);
+    transform: translate(-1.3rem -1.8rem) rotate(5deg);
   }
   52% {
-    transform: translate(-1.3rem -1.3rem) rotate(-5deg);
+    transform: translate(-1.3rem -1.8rem) rotate(-15deg);
   }
   66% {
-    transform: translate(-1.3rem -1.3rem) rotate(-5deg);
+    transform: translate(-1.3rem -1.8rem) rotate(5deg);
   }
   70% {
-    transform: translate(-1.3rem -1.3rem) rotate(-5deg);
+    transform: translate(-1.3rem -1.8rem) rotate(-15deg)
   }
   to {
     transform: translate(0.3rem 0.3rem) rotate(0deg);
