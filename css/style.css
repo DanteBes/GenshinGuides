@@ -395,7 +395,12 @@ body {
   list-style: none;
 }
 
-.footer__list a {
+.footer__menu-link {
   color: var(--primary);
   text-decoration: none;
+  transition: 0.8s;
+}
+
+.footer__menu-link_hover-efect:hover {
+  color: var(--additional);
 }
