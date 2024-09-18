@@ -38,6 +38,7 @@ body {
 .header__menu-list, .header__menu-item_box-nav{
   display: flex;
   flex-direction: column;
+  align-items: center ;
   gap: 10px;
   list-style: none;
 }
@@ -58,10 +59,11 @@ body {
 }
 
 .header__menu-details-summary {
+  display: flex;
+  gap: 5px;
   list-style: none;
   color: var(--primary);
   fill: var(--primary);
-  background: url('../src/img/svg/list.svg') no-repeat;
   background-position: 0 50%;
   background-size: 16px;
   padding: 0 0 0 20px;
