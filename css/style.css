@@ -159,20 +159,21 @@ body {
 
 .intro_heding {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  gap: 20px;
   color: var(--primary);
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .intro_title {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 14px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
   line-height: 1.2;
 }
 
 .intro_data {
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -256,7 +257,13 @@ body {
   gap: 8px;
   padding: 30px;
   border-radius: 30px;
-} 
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
 .cards-list {
   display: flex;
@@ -267,7 +274,7 @@ body {
 
 .card__title {
   font-family: "Lora", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
@@ -372,9 +379,10 @@ body {
 }
 
 .card__artifact-name {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 115%;
+
 }
 
 .footer {
