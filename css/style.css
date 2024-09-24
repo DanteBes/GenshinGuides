@@ -73,10 +73,9 @@ body {
 }
 
 .header__menu-details[open]
-> .header__menu-details-summary {
-  color: var(--additional)
+.header__menu-details-summary svg {
+    fill: var(--additional); 
 }
-
 .header__menu-details-summary::-webkit-details-marker {
   display: none;
 } 
