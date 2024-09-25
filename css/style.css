@@ -264,6 +264,13 @@ body {
   gap: 8px;
 }
 
+.card__text-artifact {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
 .cards-list {
   display: flex;
   flex-direction: column; 
@@ -379,9 +386,8 @@ body {
 
 .card__artifact-name {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 115%;
-
 }
 
 .footer {
