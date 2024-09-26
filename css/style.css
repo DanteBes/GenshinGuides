@@ -53,6 +53,15 @@ body {
   transition: 0.8s;
 }
 
+.header__menu-details-button {
+  width: 100%;
+  padding: 3px;
+  border: none;
+  border-radius: 10px;
+  color: var(--primary);
+  background-color: var(--additionalTwo)
+}
+
 .header__menu-details {
   color: var(--primary);
   position: relative;
