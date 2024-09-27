@@ -50,9 +50,19 @@
               </a>
             </li>
             <li class="header__menu-details-button-item">
-              <button class="header__menu-details-button">
+              <button onclick="this.nextElementSibling.setAttribute('open')" class="header__menu-details-button">
                 Мини-подсказка...
               </button>
+              <dettails class="header__menu-details_window">
+                <div class="header__menu-details_window-wrapper">
+                  <div class="header__menu-details_window-wrapper_content">
+                    <p class="header__menu-details_window-wrapper_hint">
+                      если вы среди карточеке увидете смайлик ху тао то можете на него тыкню или клкнуть ну и да, это посхалка на друга=) 
+                    </p>
+                  </div>
+                </div>
+                <button onclick="this.nextElementSibling.setAttribute('Close')" class="header__menu-details-button">Ясно</button>
+              </details>
             </li>
           </ul>
         </details>
