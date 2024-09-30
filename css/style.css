@@ -116,6 +116,18 @@ body {
   color: var(--additional);
 }
 
+.header__menu-details_window {
+  position: absolute;
+}
+
+.header__menu-details_window-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: translate(-50% -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
 .header__menu-link:hover {
   color: var(--additional);
 }
