@@ -50,19 +50,21 @@
               </a>
             </li>
             <li class="header__menu-details-button-item">
-              <button onclick="this.nextElementSibling.setAttribute('open')" class="header__menu-details-button">
+              <button onclick="window['easter__gialog'].open()" class="header__menu-details-button">
                 Мини-подсказка...
               </button>
-              <dettails class="header__menu-details_window">
-                <div class="header__menu-details_window-wrapper">
-                  <div class="header__menu-details_window-wrapper_content">
-                    <p class="header__menu-details_window-wrapper_hint">
-                      если вы среди карточеке увидете смайлик ху тао то можете на него тыкню или клкнуть ну и да, это посхалка на друга=) 
+              <dialog id="easter__gialog" class="header__menu-dialog">
+                <div class="header__menu-dialog-window">
+                  <div class="header__menu-dialog-content">
+                    <p class="header__menu-dialog-text">
+                      
                     </p>
                   </div>
+                   <button onclick="window['easter__gialog'].close()" class="header__menu-details-button">
+                        Мини-подсказка...
+                  </button>
                 </div>
-                <button onclick="this.nextElementSibling.setAttribute('Close')" class="header__menu-details-button">Ясно</button>
-              </details>
+              </dialog>
             </li>
           </ul>
         </details>
