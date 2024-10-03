@@ -10,7 +10,7 @@ body {
 }
 
 .content-section_theme_dark {
-  color: var(--txtColor);
+  color: var(--primary);
   background-color: var(--secondary)
 }
 
@@ -85,6 +85,7 @@ body {
 .header__menu-details-summary svg {
     fill: var(--additional); 
 }
+
 .header__menu-details-summary::-webkit-details-marker {
   display: none;
 } 
@@ -407,10 +408,11 @@ body {
 }
 
 .content-section__subtitle {
+  margin-bottom: 20px;
   font-family: "Lora", Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 130%;
 }
 
