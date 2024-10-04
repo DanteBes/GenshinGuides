@@ -1,6 +1,7 @@
 body {
   background-color: var(--primary);
   font-family: "Roboto", Arial, sans-serif;
+  min-width: 350px;
 }
 
 .content-section {
@@ -137,8 +138,9 @@ body {
 }
 
 .header__menu-dialog::backdrop {
-  opacity: 0.65;
-  background-color: rgba(0, 0, 0, 1)
+  /*opacity: 0.65;*/
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.65)
 }
 
 .header__menu-dialog-content {
@@ -286,7 +288,7 @@ body {
 }
 
 .how-to {
-  padding:20px;
+  padding: 20px;
 }
 
 .card {
