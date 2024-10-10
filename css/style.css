@@ -423,6 +423,13 @@ body {
   background-color: var(--additionalTwo)
 }
 
+.card__list-red {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: disc;
+}
+
 .content-section__subtitle {
   margin-bottom: 20px;
   font-family: "Lora", Arial, sans-serif;
