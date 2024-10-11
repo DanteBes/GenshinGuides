@@ -423,11 +423,20 @@ body {
   background-color: var(--additionalTwo)
 }
 
-.card__list-red {
+.card__list_red {
   display: flex;
   flex-direction: column;
   gap: 5px;
   list-style: disc;
+  font-size: 20px;
+}
+
+.card__list_red-item {
+  font-weight: 600;
+}
+
+.card__list_red-span {
+  font-weight: 500;
 }
 
 .content-section__subtitle {
