@@ -155,10 +155,7 @@ body {
 }
 
 .header__menu-dialog-text {
-  padding: 5px;
   text-align: center;
-  border-radius: 5px;
-  border: 3px dashed var(--primary);
   font-family: "Roboto", Arial, sans-serif;;
 }
 
@@ -224,6 +221,18 @@ body {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 500;
   line-height: 1.2;
+  display: flex;
+  align-items: center;
+}
+
+.intro_title svg {
+  margin-left: 5px;
+  width: 10px;
+  transform: 0.8s;
+}
+
+.intro_title svg:hover {
+  color: var(--additional);
 }
 
 .intro_data {
