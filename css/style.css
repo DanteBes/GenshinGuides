@@ -214,16 +214,20 @@ body {
 }
 
 .info__block_none {
-  height: 50px;
-  width: 100px;
+  width: 150px;
   padding: 5px;
+  text-align: center;
   border-radius:  5px;
-  box-shadow: 0px 0px 10px 0px rgba(6, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px 0px rgba(6, 0, 0, 0.3);
   border: 1px solid var(--primary);
   background-color: var(--secondary);
   position: absolute;
-  top: -50px;
-  right: 50px;
+  top: -70px;
+  right: 45px;
+}
+
+#info__block-none {
+  display: none;
 }
 
 .intro_heding {
